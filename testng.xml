@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+	<listener class-name="com.Listeners.ListenerEx"></listener>
+	</listeners>
+  <test name="jbkTest">
+    <classes>
+      <class name="com.Listeners.DemoTest" />
+      <class name="com.Listeners.DemoTest1" />  
+    </classes>
+  </test> 
+</suite> 
